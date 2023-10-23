@@ -90,6 +90,7 @@ h1 span {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 .square.X {
@@ -101,6 +102,12 @@ h1 span {
 }
 
 .hover {
+  background: var(--coral);
+  border-color: var(--lighterBlue);
+  cursor: pointer;
+  
+}
+.square:hover{
   background: var(--coral);
   border-color: var(--lighterBlue);
   cursor: pointer;
